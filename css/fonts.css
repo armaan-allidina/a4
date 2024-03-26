@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Anicons';
+    src: url(../fonts/AniconsColorGX.ttf) format('truetype');
+}
+div{
+    font-family: anicons;
+}
