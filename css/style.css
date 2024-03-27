@@ -4,3 +4,10 @@ body{
     margin: 0;
     text-align: center;
 }
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.LS{
+    grid-column: 3;
+}
