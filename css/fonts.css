@@ -3,18 +3,14 @@
     src: url(../fonts/AniconsColorGX.ttf) format('truetype');
 }
 @font-face {
-    font-family: 'LS';
-    src: url(../fonts/LeagueSpartan-Regular.woff2) format('woff2');
+    font-family: "blackout";
+    src: url(../fonts/blackout-master/webfonts/blackout_midnight-webfont.woff) format('woff2');
 }
 .anicon{
     font-family: anicons;
     font-size: 200%;
     font-variation-settings: 'TIME' 1;
     transition: 1s;
-}
-.LS{
-    font-family: LS;
-    font-size: 200%;
 }
 .anicon:hover{
     font-variation-settings: 'TIME' 100;
