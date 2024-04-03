@@ -8,6 +8,3 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.LS{
-    grid-column: 3;
-}

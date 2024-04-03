@@ -4,14 +4,28 @@
 }
 @font-face {
     font-family: "blackout";
-    src: url(../fonts/blackout-master/webfonts/blackout_midnight-webfont.woff) format('woff2');
+    src: url(../fonts/blackout-master/webfonts/blackout_two_am-webfont.woff) format('woff2');
 }
 .anicon{
-    font-family: anicons;
-    font-size: 200%;
+    font-family: 'anicons';
+    font-size: 400%;
     font-variation-settings: 'TIME' 1;
     transition: 1s;
+    
 }
 .anicon:hover{
     font-variation-settings: 'TIME' 100;
+}
+.out{
+    font-family: 'blackout';
+    font-size: 400%;
+}
+.fv{
+    font-family: "fraunces-variable", sans-serif;
+    font-size: 400%;
+    font-variation-settings: 'WONK' 0, 'SOFT' 0, 'wght' 100, 'opsz' 9;
+    transition: 1s;
+}
+.fv:hover{
+    font-variation-settings: 'WONK' 1, 'SOFT' 100, 'wght' 900, 'opsz' 144;
 }
