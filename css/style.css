@@ -8,3 +8,12 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+@keyframes stab{
+    from{transform: translatex(-1000px);}
+    to{transform: translatex(2620px);}
+}
+svg{
+    animation-name: stab;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

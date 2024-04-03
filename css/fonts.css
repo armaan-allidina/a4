@@ -1,8 +1,8 @@
-@font-face {
+@font-face{
     font-family: 'Anicons';
     src: url(../fonts/AniconsColorGX.ttf) format('truetype');
 }
-@font-face {
+@font-face{
     font-family: "blackout";
     src: url(../fonts/blackout-master/webfonts/blackout_two_am-webfont.woff) format('woff2');
 }
